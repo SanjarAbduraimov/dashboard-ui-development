@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Manrope;
+  src: url(../assets/Fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+* {
+  font-family: Manrope;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

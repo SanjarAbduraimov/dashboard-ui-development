@@ -1,0 +1,23 @@
+
+//    utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/functions';
+  // base
+  @import 'base/reset';
+  @import 'base/typography';
+  // vendors
+ 
+  // components
+  @import 'components/button';
+  // layout 
+  
+  @font-face {
+      font-family: Manrope;
+      src: url(../assets/Fonts/Manrope/Manrope-VariableFont_wght.ttf);
+  }
+  *{
+    font-family: Manrope;
+    box-sizing: border-box;
+  }
+
