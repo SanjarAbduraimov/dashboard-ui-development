@@ -6,10 +6,12 @@
   // base
   @import 'base/reset';
   @import 'base/typography';
+  @import "./base/normalize";
+  @import "./base/variable";
   // vendors
  
   // components
-  @import 'components/button';
+  @import './components/index';
   // layout 
   
   @font-face {
