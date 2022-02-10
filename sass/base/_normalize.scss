@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lato:ital,wght@1,300&family=Manrope:wght@700&family=Open+Sans&family=Work+Sans&display=swap');
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  max-width: 119rem;
+}
+.container{
+  margin: 5rem 13rem 5rem 8rem;
+}
+
+ li{
+   list-style: none;
+ }
