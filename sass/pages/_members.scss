@@ -1,0 +1,98 @@
+.members__menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 0 4rem 0;
+  
+  }
+  .members__item{
+    align-items: center;
+  }
+  .members__link{
+    text-decoration: none;
+    display: inline-block;
+    color: #2E2C34;
+    
+  }
+  
+  .server__menu{
+    display: flex;
+    padding-bottom: 1.2rem;
+    .name{
+      padding-right: 19.2rem;
+  
+      .full__name{
+        padding-left: 2.6rem;
+  
+      }
+    }
+    .Address{
+      padding-right: 12rem;
+    }
+    .Phone{
+      padding-right: 12rem;
+    }
+    .Status{
+      padding-right: 12.7rem;
+    }
+    .Language{
+      padding-right: 8.2rem;
+    }
+  }
+  .server__link{
+    color: #84818A;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .member__text{
+    text-transform: capitalize;
+    font-size: 2rem;
+    
+    &:hover{
+      cursor: pointer;
+      color: #5542F6;
+      text-decoration: underline #5542F6 ;
+    }
+  }
+  
+  .contact{
+    padding: 0.9rem 0.9rem 0 0rem;
+  }
+  .members__wrapper{
+    display: flex;
+  }
+  .table__item{
+    padding: 2.8rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+  }
+  p{
+    font-size: 1.4rem;
+    color: #2E2C34;
+    font-weight: 300;
+  
+  }
+  h2{
+    font-weight: 500;
+    color: #2E2C34;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    
+  }
+  
+  .input__wrapper{
+    padding-right: 2.6rem;
+  }
+  .img__wrapper{
+    padding-right: 1.6rem;
+  }
+  .name__wrapper{
+    padding-right: 11.6rem;
+  }
+  .adress__wrapper{
+    padding-right: 7.6rem;
+  }
+  .phone__wrapper{
+    padding-right: 7.5rem;
+  }
