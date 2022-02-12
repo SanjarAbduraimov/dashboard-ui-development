@@ -1,0 +1,35 @@
+#sidebar{
+    // width: 250px;
+    height: 100%;
+    background-color: #FBFAFC;
+    
+    .sidebar_logo{
+        padding-right: 54px;
+        padding-top: 25px;
+        padding-bottom: 22px;
+    }
+    .sidebar_menu{
+         .active{
+            background: rgba(85, 66, 246, 0.2);
+            border-radius: 4px;
+         }
+        .sidebar_link{
+            display: flex;
+            padding: 16px 12px;
+            img{
+                width: 18px;
+                height: 18px;
+                color: #84818A;
+            }
+            p{
+                padding-left: 19px;
+                font-weight: 600;
+                line-height: 20px;
+                
+            }
+            &:hover{
+                background: rgba(85, 66, 246, 0.3);
+            }
+        }
+    }
+}
