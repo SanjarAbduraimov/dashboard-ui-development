@@ -21,10 +21,18 @@ $breakpoints: (
 @each $mq in (sm, md, lg, xl, xxl) {
   @media (min-width: map-get($breakpoints, $mq )) {
     .container {
-      max-width: map-get($breakpoints, $mq);
+      max-width: calc(map-get($breakpoints, $mq) - 90px);
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
     }
     .container-#{$mq} {
-      max-width: map-get($breakpoints, $mq);
+      max-width: calc(map-get($breakpoints, $mq) - 90px);
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 }
