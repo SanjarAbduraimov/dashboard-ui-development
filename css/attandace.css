@@ -1,25 +1,22 @@
+th,
+td {
+    font-size: 14px;
+}
 .attandace-btn-wrapper {
-    
     display: flex;
     justify-content: end;
     gap: 1.5rem;
 }
-.attandace-btn {
-    color: white;
-    background-color: rgb(4, 4, 196);
-}
 .attandace-btn:hover {
     color: white;
 }
-.attandace-word {
+/* .attandace-word {
     margin: 0.7rem;
 }
 .attandace-words {
     margin: 0.7rem;
-}
+} */
 .attandace-farm {
     align-items: center;
-    background-color: rgb(243, 240, 240);
+    background-color: rgb(253, 244, 244);
 }
-th  {
-    padding: .5rem}
