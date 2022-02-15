@@ -1,14 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-        <!-- html -->
-    </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitnes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div id="root">
+      <aside>
+        <div class="row aside__content">
+          <div class="col-sm-2" id="sidebar">
+            <img
+              class="sidebar_logo"
+              src="./assets/img/Logos/Logo_Fitnes.png"
+              class="sidebar_logo"
+              alt=""
+            />
+            <div class="sidebar_menu">
+              <a href="./Equipment.html" class="sidebar_link">
+                <img src="./assets/img/Logos/Equipment.svg" alt="" />
+                <p>Equipment</p>
+              </a>
+              <a href="./members.html" class="sidebar_link">
+                <img src="./assets/img/Logos/person_pin.svg" alt="" />
+                <p>Members</p>
+              </a>
+              <a href="./Products.html" class="sidebar_link">
+                <img src="./assets/img/Logos/Products.svg" alt="" />
+                <p>Products</p>
+              </a>
+              <a href="./Payments.html" class="sidebar_link active">
+                <img src="./assets/img/Logos/payments.svg" alt="" />
+                <p>Payments</p>
+              </a>
+              <a href="./Attendance.html" class="sidebar_link">
+                <img src="./assets/img/Logos/attendance.svg" alt="" />
+                <p>Attendance</p>
+              </a>
+              <a href="./Settings.html" class="sidebar_link">
+                <img src="./assets/img/Logos/settings.svg" alt="" />
+                <p>Settings</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <header id="header">
+          <div class="header_menu">
+            <div class="header_menu_icons">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="header_menu_admin">
+              <img src="./assets/img/Avatar/MaxBeart.svg" alt="" />
+              <div class="header_menu_admin_text">
+                <h4>Maxbert</h4>
+                <p>Admin - Designspace</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- for members page  -->
+        <section id="members">
+          <div class="row">
+            <div class="col">
+              <div class="members__text-wrapper row">
+                <div class="members__icon-wrapper">
+                  <a class="members__link" href="#">
+                    <img
+                      class="members__icon"
+                      src="./assets/png/Vectormembers.png"
+                    />
+                    <h1 class="members__title">24 Members</h1>
+                  </a>
+                </div>
+
+                <div class="btn__wrapper">
+                  <button class="btn">
+                    <span
+                      ><img class="plus__img" src="./assets/png/Vectorplus.png"
+                    /></span>
+                    New Member
+                  </button>
+                </div>
+              </div>
+              <!-- <li class="col members__item">
+              <a href="#" class="members__link">
+              </a>
+              </li> -->
+
+              <ul class="table__menu">
+                <li class="table__item links">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <a href="#">full name</a>
+                  </div>
+                  <div class="address__wrapper">
+                    <a href="#">address</a>
+                  </div>
+                  <div class="phone__wrapper">
+                    <a href="#">phone</a>
+                  </div>
+                  <div class="status__wrapper">
+                    <a href="#">status</a>
+                  </div>
+                  <div class="lang__wrapper">
+                    <a href="#">language</a>
+                  </div>
+                  <div class="action__wrapper">
+                    <a href="#"> action</a>
+                  </div>
+                </li>
+
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/Dannysparks.png" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__active">Active</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/Dushana Deil.png" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__active">Active</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/Loretta Day.png" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__unactive">Unactive</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/MaxBeart.svg" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__active">Active</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/PatrickMiller.png" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__active">Active</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+                <li class="table__item table__row">
+                  <div class="input__wrapper">
+                    <input type="checkbox" class="input" />
+                  </div>
+                  <div class="full__name-wrapper">
+                    <div class="profile__img-wrapper">
+                      <img src="./assets/img/Avatar/essi ward.png" alt="" />
+                      <div class="profile__text-wrapper">
+                        <h5>Essie Ward</h5>
+                        <p>lu@sa.co.uk</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="address__wrapper">
+                    <h5>Atlanta</h5>
+                    <p>United States</p>
+                  </div>
+                  <div class="phone__wrapper">
+                    <h5>Sebo Studio</h5>
+                  </div>
+                  <div class="status__wrapper">
+                    <button class="btn__active">Active</button>
+                  </div>
+                  <div class="lang__wrapper"></div>
+                  <div class="action__wrapper">
+                    <img src="./assets/png/Vectornext-icon.png" alt="" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="container">
+            <div class="row ">
+                <div class="col forma">
+                    <div class="row">
+                        <div class="col form__img">
+                            <img class="footer__logo" src="/dashboard-ui-development/assets/img/Logos/Logo_Turbosale.png">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><h2 class="form__title">Welcome Back!</h2></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" >
+                                <label for="floatingInput">Email address</label>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                              </div>
+                              <button class="btn btn-primary mb-5">Sign in</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col ">
+                            <p>Don`t have account</p>
+                        </div>
+                        <div class="col">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col forma__2">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/assets/img/Sign in/dashbord.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h4>Connect and manage with your team!</h4>
+                            <p>Aziest Jordan is one of the biggest superstars to have immerged from the professional designer in world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>

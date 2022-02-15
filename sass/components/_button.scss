@@ -1,48 +1,25 @@
 .btn{
-  display: flex;
-  flex-direction:row;
   justify-content: center;
   align-items: center;
-  padding: 11px, 24px, 11px, 24px;
+  padding: 11px, 20px, 11px, 21px;
   background-color: #5542F6;
+  font-size: 1.4rem;
+  font-weight: 600;
   width: 15.1rem;
   height: 4.2rem;
   text-transform: capitalize;
-  font-family: 'Manrope', sans-serif;
-
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
   color: #FBFAFC;
 
-  &:hover{
-    border: 1px solid #5542F6;
-  }
+  
 
   span{
-    padding: 0 0.9rem;
+    .plus__img{
+      width: 1.33rem;
+      height: 1.33rem;
+      
+    }
   }
-}
-
-.btn__primary{
-  padding: 2px 8px 4px;
-  border-radius: 4px;
-  background: rgba(85, 66, 246, 0.1);
-  color: #5542F6;
-  border: none;
-  cursor: pointer;
-  margin-right: 28rem;
-
-}
-.btn__warning{
-  color: #FFA043;
-  padding: 2px 8px 4px;
-  border-radius: 4px;
-  background-color: #FFA0431A;
-  border: none;
-  cursor: pointer;
-  margin-right: 27rem;
-}
-.icon{
-  cursor: pointer;
 }

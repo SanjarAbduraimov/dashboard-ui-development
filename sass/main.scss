@@ -1,25 +1,50 @@
-
 //    utils
-@import 'utils/variables';
-@import 'utils/mixins';
-@import 'utils/functions';
-  // base
-  @import 'base/reset';
-  @import 'base/typography';
-  @import "./base/normalize";
-  @import "./base/variable";
-  // vendors
- 
-  // components
-  @import './components/index';
-  // layout 
-  
-  @font-face {
-      font-family: Manrope;
-      src: url(../assets/Fonts/Manrope/Manrope-VariableFont_wght.ttf);
-  }
-  *{
-    font-family: Manrope;
-    box-sizing: border-box;
-  }
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "utils/functions";
+// base
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/normalize";
+// vendors
+  @import './vendors/index';
+// components
+@import "./components/index";
+// layout
+@import "./layout/index";
 
+// pages
+@import "./pages/index";
+@import "./layout/footer";
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: $white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $mainBlue;
+  border-radius: 2rem;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  aside {
+    flex: 1;
+    min-width: 25rem;
+    max-width: 30rem;
+    width: 100%;
+    .aside__content {
+      position: fixed;
+      min-width: 25rem;
+      height: 100%;
+      background-color: #fbfafc;
+      z-index: 100;
+    }
+  }
+  main {
+    flex: 4;
+  }
+}

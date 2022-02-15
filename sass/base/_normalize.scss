@@ -16,12 +16,10 @@ html {
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1.6rem;
-  max-width: 119rem;
-}
-.container{
-  margin: 5rem 13rem 5rem 8rem;
-}
-
  li{
    list-style: none;
  }
+ a{
+   text-decoration: none;
+ }
+}
