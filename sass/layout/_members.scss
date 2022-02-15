@@ -1,0 +1,121 @@
+#members {
+  padding: 13rem 8.5rem;
+}
+.members__text-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4rem;
+
+  .members__icon-wrapper {
+    align-items: center;
+
+    a {
+      display: flex;
+      flex-basis: 30%;
+      flex-wrap: nowrap;
+      align-items: center;
+      font-size: 1.8rem;
+      color: #2e2c34;
+
+      img {
+        width: 2rem;
+        height: 2.2rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+.table__menu {
+  .links {
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #ebeaed;
+  }
+  .table__row {
+    padding: 2.8rem 0 1.8rem;
+    border-bottom: 1px solid #ebeaed;
+  }
+  .table__item {
+    display: flex;
+    align-items: center;
+    .input__wrapper {
+      flex-basis: 3%;
+    }
+    .full__name-wrapper {
+      flex-basis: 27%;
+      align-items: center;
+
+      a {
+        text-transform: uppercase;
+      }
+
+      .profile__img-wrapper {
+        display: flex;
+
+        img {
+          width: 4.2rem;
+          height: 4.2rem;
+          margin-right: 1.6rem;
+        }
+      }
+    }
+    .address__wrapper {
+      flex-basis: 17%;
+    }
+    .phone__wrapper {
+      flex-basis: 17%;
+    }
+    .status__wrapper {
+      flex-basis: 17%;
+
+      .btn__active {
+        cursor: pointer;
+        background: rgba(85, 66, 246, 0.1);
+        border-radius: 4px;
+        border: none;
+        color: #5542f6;
+        padding: 2px 8px 4px;
+      }
+      .btn__unactive {
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        background: #ffa0431a;
+        color: #ffa043;
+        padding: 2px 8px 4px;
+      }
+    }
+    .lang__wrapper {
+      flex-basis: 14%;
+    }
+    .action__wrapper {
+      display: flex;
+      justify-content: end;
+      flex-basis: 5%;
+
+      a {
+        text-transform: uppercase;
+      }
+
+      img {
+        width: 1.6rem;
+        height: 1.6rem;
+        cursor: pointer;
+      }
+    }
+
+    a {
+      font-size: 1.2rem;
+      color: #84818a;
+      text-transform: capitalize;
+    }
+
+    h5 {
+      font-size: 1.4rem;
+    }
+    p {
+      color: #2e2c34;
+      font-size: 1.4rem;
+    }
+  }
+}
