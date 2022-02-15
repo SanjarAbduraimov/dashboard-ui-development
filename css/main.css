@@ -857,6 +857,146 @@ body a {
   font-size: 1.4rem;
 }
 
+.footer__logo {
+  color: #002bf0;
+}
+
+footer {
+  background-color: #0080FF;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.forma {
+  width: 100%;
+  background-color: #fff;
+}
+
+.form__img {
+  margin-top: 20rem;
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #97A0C3;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+
+.forma__wrapper {
+  padding-left: 14rem;
+}
+
+#floatingPassword {
+  width: 50%;
+}
+
+#floatingInput {
+  width: 50%;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+.form__title {
+  margin-top: 1rem;
+  ont-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #242F57;
+}
+
+.form-control {
+  padding: 1rem;
+  width: 70%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #636E95;
+}
+
+#Eslabqol {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+#Elabqol:checked {
+  color: #002bf0;
+}
+
+footer a {
+  float: right;
+}
+
+.remember {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #242F57;
+}
+
+.btn__primary {
+  width: 70%;
+  background: #002bf0;
+}
+
+.register {
+  margin-top: 18rem;
+  margin-bottom: 2rem;
+}
+
+.forma__2-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.forma__2 img {
+  margin-top: 20rem;
+}
+
+.form__2-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.form__2-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
   height: 0.5rem;
