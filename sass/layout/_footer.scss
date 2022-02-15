@@ -1,13 +1,6 @@
 .footer__logo{
     color: $mainBlue;
 }
-footer{
-    background-color: #0080FF;;
-}
-.container{
-    margin: 0;
-    padding: 0;
-}
 .forma{
     width: 100%;
     background-color: $white;
@@ -68,11 +61,16 @@ color: #636E95;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
-#Elabqol:checked{
+#Eslabqol:active{
     color: $mainBlue;
 }
+.forgot{
+    display: flex;
+    justify-content: end;
+    padding-right: 10rem;
+}
 footer a{
-    float: right;
+    
 }
 .remember{
     font-family: Inter;
@@ -91,15 +89,22 @@ color: #242F57;
     margin-top: 18rem;
     margin-bottom: 2rem;
 }
-.forma__2-wrapper{
+
+.forma__2{
+    background: $mainBlue;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-.forma__2 img{
-    margin-top: 20rem;
+.Dashboard__img{
+    width: 517px;
+    height: 337px;
 }
+
 .form__2-title{
+    margin-top: 8rem;
+    margin-bottom: 1.2rem;
     font-family: Inter;
 font-style: normal;
 font-weight: bold;
