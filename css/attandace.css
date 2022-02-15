@@ -1,14 +1,22 @@
 th,
 td {
-    font-size: 14px;
+  font-size: 14px;
 }
+
+tr :nth-child(4) {
+  max-width: 60px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .attandace-btn-wrapper {
-    display: flex;
-    justify-content: end;
-    gap: 1.5rem;
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
 }
 .attandace-btn:hover {
-    color: white;
+  color: white;
 }
 /* .attandace-word {
     margin: 0.7rem;
@@ -17,6 +25,6 @@ td {
     margin: 0.7rem;
 } */
 .attandace-farm {
-    align-items: center;
-    background-color: rgb(253, 244, 244);
+  align-items: center;
+  background-color: rgb(253, 244, 244);
 }

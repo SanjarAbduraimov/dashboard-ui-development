@@ -12,15 +12,19 @@
     .sidebar_link {
       display: flex;
       padding: 16px 12px;
+      align-items: center;
       img {
+        display: block;
         width: 18px;
         height: 18px;
         color: #84818a;
       }
       p {
+        margin: 0;
         padding-left: 19px;
         font-weight: 600;
         line-height: 20px;
+        font-size: 14px;
       }
       &:hover {
         background: rgba(85, 66, 246, 0.3);
